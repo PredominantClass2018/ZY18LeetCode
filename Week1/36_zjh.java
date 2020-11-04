@@ -1,3 +1,6 @@
+/**
+* 1550. 存在连续三个奇数的数组
+*/
 class Solution {
     public boolean threeConsecutiveOdds(int[] arr) {
         int t = 0;
