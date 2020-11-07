@@ -1,7 +1,7 @@
 
 
 
-//1.ËùÓĞÆæÊı³¤¶È×ÓÊı×éµÄºÍ 
+//1.æ‰€æœ‰å¥‡æ•°é•¿åº¦å­æ•°ç»„çš„å’Œ 
 int sumOddLengthSubarrays(int* arr, int arrSize)
  {
  	int sum=0,length=1;
@@ -19,7 +19,7 @@ int sumOddLengthSubarrays(int* arr, int arrSize)
     return sum;
 }
 
-//2. ´æÔÚÁ¬ĞøÈı¸öÆæÊıµÄÊı×é
+//2. å­˜åœ¨è¿ç»­ä¸‰ä¸ªå¥‡æ•°çš„æ•°ç»„
  bool threeConsecutiveOdds(int* arr, int arrSize)
 {
  	int i=0,j=0,l=0;
@@ -39,7 +39,7 @@ int sumOddLengthSubarrays(int* arr, int arrSize)
 	 return false;
 }
 
-//3. Èı½ÇĞÎ×îĞ¡Â·¾¶ºÍ 
+//3. ä¸‰è§’å½¢æœ€å°è·¯å¾„å’Œ 
 
 int compare(int a,int b)
 {
