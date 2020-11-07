@@ -1,0 +1,64 @@
+1550. 存在连续三个奇数的数组
+bool threeConsecutiveOdds(int* arr, int arrSize){
+    int i,flag=0;
+    for(i=0;i<arrSize;i++)
+    {
+        if(arr[i]%2!=0 )
+            flag+=1;
+        if(arr[i]%2==0 )
+            flag=0;
+        if(flag==3)
+        break;
+    }
+      if(flag==3)
+    return true;
+    else return false;
+
+}
+
+1588. 所有奇数长度子数组的和
+int sumOddLengthSubarrays(int* arr, int arrSize){
+int i,j,n=0,sum=0;
+if(arrSize==2)
+    return arr[0]+arr[1];
+for(i=1;i<=arrSize;i=i+2)
+{
+    n=0;
+    while(i+n<=arrSize)
+    {
+        for(j=n;j<i+n;++j)
+            sum=sum+arr[j];
+        n+=1;
+    }
+}
+
+return sum;
+}
+
+
+
+120. 三角形最小路径和
+int minimumTotal(int** triangle, int triangleSize, int* triangleColSize){
+   int i,j,k=100;
+    for(i=1;i<triangleSize;++i)
+        triangle[i][0]=triangle[i-1][0]+triangle[i][0];
+    for(i=1;i<triangleSize;++i)
+        triangle[i][i]+=triangle[i-1][i-1];
+    for(i=2;i<triangleSize;++i)
+    {
+        for(j=1;j<i;++j)
+        {
+             triangle[i][j] += (triangle[i - 1][j - 1] > triangle[i - 1][j] ? triangle[i - 1][j] : triangle[i - 1][j - 1]);
+        }
+    }
+    j=0;
+    while(j<triangleColSize[triangleSize-1])
+    {
+        if(k>triangle[triangleSize-1][j])
+            k=triangle[triangleSize-1][j];
+        j++;
+    }
+    return k;
+
+
+}
