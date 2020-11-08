@@ -15,7 +15,7 @@ public:
     }
 }; 
 
-//2、所有奇数长度子数组的和
+//2、所有奇数长度子数组和
 class Solution {
 public:
     int sumOddLengthSubarrays(vector<int>& arr) {
