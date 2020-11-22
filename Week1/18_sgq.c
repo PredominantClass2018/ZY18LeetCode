@@ -15,3 +15,6 @@ bool threeConsecutiveOdds(int* arr, int arrSize){
 	return false;
 }
 
+void fun() {
+	
+}
