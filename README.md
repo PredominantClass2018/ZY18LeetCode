@@ -1,3 +1,8 @@
-### purpose
+### 题目链接
 
-提高18级计科卓越代码能力
+1.https://leetcode-cn.com/problems/circle-and-rectangle-overlapping/
+
+2.https://leetcode-cn.com/problems/binary-search/
+
+3.https://leetcode-cn.com/problems/rotate-array/
+
