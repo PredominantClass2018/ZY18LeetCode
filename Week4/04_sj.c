@@ -42,3 +42,15 @@ binary-search
     }
     return -1;
 }*/
+
+
+/****************
+circle-and-rectangle-overlapping
+****************/
+/*矩形区域内点离圆心最近的点距离小于圆的半径*/
+
+/*bool checkOverlap(int radius, int x_center, int y_center, int x1, int y1, int x2, int y2){
+    int dx = x1 > x_center ? x1 - x_center : x2 < x_center ? x_center - x2 : 0;
+    int dy = y1 > y_center ? y1 - y_center : y2 < y_center ? y_center - y2 : 0;
+    return dx * dx + dy * dy <= radius * radius;
+}*/
