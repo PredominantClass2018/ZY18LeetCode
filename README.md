@@ -1,3 +1,5 @@
-### purpose
+### 题目链接
 
-提高18级计科卓越代码能力
+1.https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/
+
+2.https://leetcode-cn.com/problems/find-first-and-last-position-of-%20element-in-sorted-array/
