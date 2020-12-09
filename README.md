@@ -2,4 +2,4 @@
 
 1.https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/
 
-2.https://leetcode-cn.com/problems/find-first-and-last-position-of-%20element-in-sorted-array/
+2.https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
