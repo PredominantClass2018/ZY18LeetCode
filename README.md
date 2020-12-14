@@ -1,4 +1,6 @@
-### PURPOSE
+### 题目链接
 
-提高18级计科卓越代码能力
+1.https://leetcode-cn.com/problems/longest-well-performing-interval/
+
+2.https://leetcode-cn.com/problems/minimum-number-of-frogs-croaking/
 
