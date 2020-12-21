@@ -1,4 +1,6 @@
-### PURPOSE
+### 题目链接
 
-提高18级计科卓越代码能力
+1.https://leetcode-cn.com/problems/complex-number-multiplication/
+
+2.https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
 
